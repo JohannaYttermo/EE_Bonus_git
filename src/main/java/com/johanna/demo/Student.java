@@ -8,9 +8,7 @@ public class Student {
         this.username = username;
     }
 
-    public String getUsername() {
-        return username;
-    }
+
 
 
 }
