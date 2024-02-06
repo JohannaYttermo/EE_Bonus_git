@@ -2,9 +2,15 @@ package com.johanna.demo;
 
 public class Student {
 
-    private String name;
+    private String username;
 
-    public Student(String name) {
-        this.name = name;
+    public Student(String username) {
+        this.username = username;
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+
 }
